@@ -185,8 +185,7 @@ with n8n
 </td>
 <td width="45%" align="center">
 
- <img width="515" height="1024" alt="04-telegram-output" src="https://github.com/user-attachments/assets/afdb599f-996b-4b7a-b539-daba5a7ec48d" />
-
+<img src="https://github.com/user-attachments/assets/afdb599f-996b-4b7a-b539-daba5a7ec48d" alt="Telegram message received by the doctor" width="260">
 
 </td>
 </tr>
