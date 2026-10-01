@@ -16,7 +16,7 @@
   <img src="https://img.shields.io/badge/License-MIT-lightgrey?style=flat-square" alt="License">
 </p>
 
-<img src="doctor-patient-reminder-n8n/screenshots/01-manual-vs-automated.png" alt="Manual process vs automated with n8n" width="100%">
+<img width="1619" height="972" alt="01-manual-vs-automated" src="https://github.com/user-attachments/assets/ac5edb43-c43d-4bbb-b07f-a9b9d17dd6f6" />
 
 <sub>Illustration: the shift from manual tracking to an automated workflow.</sub>
 
@@ -94,7 +94,8 @@ The clinic assistant only shares a booking form link. From that point on, everyt
 ## 🏗 Architecture
 
 <p align="center">
-  <img src="doctor-patient-reminder-n8n/screenshots/02-architecture.png" alt="System architecture diagram" width="100%">
+    <img width="1672" height="941" alt="02-architecture" src="https://github.com/user-attachments/assets/9106228c-1523-40a9-a1b0-cdcf8a2497aa" />
+
 </p>
 
 <details>
@@ -123,7 +124,8 @@ flowchart LR
 ## ⚙️ The n8n Workflow
 
 <p align="center">
-  <img src="doctor-patient-reminder-n8n/screenshots/03-n8n-workflow.png" alt="n8n workflow canvas" width="100%">
+   <img width="1316" height="604" alt="03-n8n-workflow" src="https://github.com/user-attachments/assets/056e7151-3952-483c-a0f4-f23889dd0594" />
+
 </p>
 
 | # | Node | Role |
@@ -183,7 +185,8 @@ with n8n
 </td>
 <td width="45%" align="center">
 
-<img src="doctor-patient-reminder-n8n/screenshots/04-telegram-output.jpeg" alt="Telegram message received by the doctor" width="260">
+ <img width="515" height="1024" alt="04-telegram-output" src="https://github.com/user-attachments/assets/afdb599f-996b-4b7a-b539-daba5a7ec48d" />
+
 
 </td>
 </tr>
