@@ -16,20 +16,22 @@
   <img src="https://img.shields.io/badge/License-MIT-lightgrey?style=flat-square" alt="License">
 </p>
 
-<img src="screenshots/01-manual-vs-automated.png" alt="Manual process vs automated with n8n" width="100%">
+<img src="doctor-patient-reminder-n8n/screenshots/01-manual-vs-automated.png" alt="Manual process vs automated with n8n" width="100%">
 
 <sub>Illustration: the shift from manual tracking to an automated workflow.</sub>
 
-[Overview](#-overview) •
-[Architecture](#-architecture) •
-[Workflow](#-the-n8n-workflow) •
-[Output](#-the-output) •
-[Setup](#-getting-started) •
-[Roadmap](#-limitations--roadmap)
+[Overview](#overview) •
+[Architecture](#architecture) •
+[Workflow](#workflow) •
+[Output](#output) •
+[Setup](#setup) •
+[Roadmap](#roadmap)
 
 </div>
 
 ---
+
+<a id="overview"></a>
 
 ## 📌 Overview
 
@@ -87,10 +89,12 @@ The clinic assistant only shares a booking form link. From that point on, everyt
 
 ---
 
+<a id="architecture"></a>
+
 ## 🏗 Architecture
 
 <p align="center">
-  <img src="screenshots/02-architecture.png" alt="System architecture diagram" width="100%">
+  <img src="doctor-patient-reminder-n8n/screenshots/02-architecture.png" alt="System architecture diagram" width="100%">
 </p>
 
 <details>
@@ -114,10 +118,12 @@ flowchart LR
 
 ---
 
+<a id="workflow"></a>
+
 ## ⚙️ The n8n Workflow
 
 <p align="center">
-  <img src="screenshots/03-n8n-workflow.png" alt="n8n workflow canvas" width="100%">
+  <img src="doctor-patient-reminder-n8n/screenshots/03-n8n-workflow.png" alt="n8n workflow canvas" width="100%">
 </p>
 
 | # | Node | Role |
@@ -143,6 +149,8 @@ The `Edit Fields` node converts the slot text from the form into a short label a
 > Different clinic timings? Edit the slot conditions inside the `Edit Fields` node.
 
 ---
+
+<a id="output"></a>
 
 ## 📱 The Output
 
@@ -175,7 +183,7 @@ with n8n
 </td>
 <td width="45%" align="center">
 
-<img src="screenshots/04-telegram-output.jpeg" alt="Telegram message received by the doctor" width="260">
+<img src="doctor-patient-reminder-n8n/screenshots/04-telegram-output.jpeg" alt="Telegram message received by the doctor" width="260">
 
 </td>
 </tr>
@@ -203,6 +211,8 @@ with n8n
 - Privacy-aware design and clean documentation
 
 ---
+
+<a id="setup"></a>
 
 ## 🚀 Getting Started
 
@@ -251,7 +261,7 @@ Then open the **Responses** tab and click **Link to Sheets**.
 <br>
 
 1. In n8n, go to **Workflows → Import from file**.
-2. Select [`workflow/doctor-patient-reminder.json`](workflow/doctor-patient-reminder.json).
+2. Select [`workflow/doctor-patient-reminder.json`](doctor-patient-reminder-n8n/workflow/doctor-patient-reminder.json).
 
 </details>
 
@@ -290,6 +300,8 @@ Then open the **Responses** tab and click **Link to Sheets**.
 | Recipient | Telegram node | `YOUR_TELEGRAM_CHAT_ID` |
 
 ---
+
+<a id="roadmap"></a>
 
 ## 🧭 Limitations & Roadmap
 
@@ -364,7 +376,7 @@ Automation • Data • AI/ML
 
 <div align="center">
 
-Released under the [MIT License](LICENSE)
+Released under the [MIT License](doctor-patient-reminder-n8n/LICENSE)
 
 ⭐ If this project helped or inspired you, consider giving it a star.
 
